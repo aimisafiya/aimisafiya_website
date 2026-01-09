@@ -406,13 +406,34 @@ td {
    GALLERY NATURE VIDEO
 ====================================================== */
 
-.gallery-video {
-  width: 90%;
-  max-width: 400px;
-  margin-top: 15px;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+/* Gallery box full width */
+.gallery-box {
+  width: 100%;
+  padding: 30px;
 }
+
+/* Title atas */
+.gallery-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Video container */
+.gallery-videos {
+  display: flex;
+  gap: 20px;
+}
+
+/* Video styling */
+.gallery-video {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
 
 
 /* ======================================================
