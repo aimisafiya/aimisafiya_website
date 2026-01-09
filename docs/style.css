@@ -187,7 +187,7 @@ td {
 }
 
 /* ======================================================
-   GALLERY (KEKAL BESAR)
+   GALLERY 
 ====================================================== */
 .gallery {
   display: grid;
@@ -408,6 +408,57 @@ td {
   50% { transform: translateY(-10px); }
   100% { transform: translateY(0); }
 }
+
+/* ======================================================
+   VALUE - FAMILY
+====================================================== */
+.box {
+  border: 2px solid #000;
+  padding: 30px;
+  max-width: 500px;
+  background: #fff;
+}
+
+.label {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 12px;
+  margin-bottom: 20px;
+}
+
+.values-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.value-card {
+  position: relative;
+  padding-left: 20px;
+}
+
+.value-card::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  font-size: 18px;
+  color: #000;
+}
+
+.value-card h4 {
+  margin: 0 0 5px;
+  font-weight: 700;
+}
+
+.value-card p {
+  margin: 0;
+  line-height: 1.6;
+}
+
 
 /* ======================================================
    GALLERY NATURE VIDEO
