@@ -412,21 +412,15 @@ td {
   padding: 30px;
 }
 
-.gallery-title {
-  margin-bottom: 20px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: left;
-}
-
 .gallery-videos {
   display: flex;
+  justify-content: space-between;
   gap: 20px;
 }
 
 .gallery-video {
-  width: 100%;
-  max-width: 320px;
+  width: 50%;
+  height: auto;
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 }
