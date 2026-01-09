@@ -406,13 +406,12 @@ td {
    GALLERY NATURE VIDEO
 ====================================================== */
 
-/* Gallery box full width */
+
 .gallery-box {
   width: 100%;
   padding: 30px;
 }
 
-/* Title atas */
 .gallery-title {
   margin-bottom: 20px;
   font-size: 24px;
@@ -420,13 +419,11 @@ td {
   text-align: left;
 }
 
-/* Video container */
 .gallery-videos {
   display: flex;
   gap: 20px;
 }
 
-/* Video styling */
 .gallery-video {
   width: 100%;
   max-width: 320px;
